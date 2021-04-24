@@ -3,17 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1704DB44E164EFB60F930C53 /* Pods_64Collection_MacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B38F28DDB319B4555A966E /* Pods_64Collection_MacOS.framework */; };
+		E45EF682262F28090083AA88 /* BrandCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45EF680262F28090083AA88 /* BrandCollectionViewItem.swift */; };
+		E45EF683262F28090083AA88 /* BrandCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45EF681262F28090083AA88 /* BrandCollectionViewItem.xib */; };
+		E45EF68D262F2E3E0083AA88 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45EF68C262F2E3E0083AA88 /* ImageUtils.swift */; };
+		E45EF6A9262F3C830083AA88 /* TypeDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45EF6A8262F3C830083AA88 /* TypeDto.swift */; };
 		E4925B2C262E93D60048458D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4925B2B262E93D60048458D /* AppDelegate.swift */; };
 		E4925B2E262E93D60048458D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4925B2D262E93D60048458D /* ViewController.swift */; };
 		E4925B30262E93DA0048458D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4925B2F262E93DA0048458D /* Assets.xcassets */; };
 		E4925B33262E93DA0048458D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4925B31262E93DA0048458D /* Main.storyboard */; };
+		E4925B45262E95B40048458D /* LeanCloudService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4925B44262E95B40048458D /* LeanCloudService.swift */; };
+		E4925B4A262E96FB0048458D /* BrandDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4925B49262E96FB0048458D /* BrandDto.swift */; };
+		E4925B4F262E97790048458D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4925B4E262E97790048458D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08B38F28DDB319B4555A966E /* Pods_64Collection_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_64Collection_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B539D8DD4D901939F1192626 /* Pods-64Collection-MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-64Collection-MacOS.debug.xcconfig"; path = "Target Support Files/Pods-64Collection-MacOS/Pods-64Collection-MacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E45EF680262F28090083AA88 /* BrandCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCollectionViewItem.swift; sourceTree = "<group>"; };
+		E45EF681262F28090083AA88 /* BrandCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandCollectionViewItem.xib; sourceTree = "<group>"; };
+		E45EF68C262F2E3E0083AA88 /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		E45EF6A8262F3C830083AA88 /* TypeDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeDto.swift; sourceTree = "<group>"; };
 		E4925B28262E93D60048458D /* 64Collection-MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "64Collection-MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4925B2B262E93D60048458D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4925B2D262E93D60048458D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +35,10 @@
 		E4925B32262E93DA0048458D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4925B34262E93DA0048458D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4925B35262E93DA0048458D /* _4Collection_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _4Collection_MacOS.entitlements; sourceTree = "<group>"; };
+		E4925B44262E95B40048458D /* LeanCloudService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCloudService.swift; sourceTree = "<group>"; };
+		E4925B49262E96FB0048458D /* BrandDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandDto.swift; sourceTree = "<group>"; };
+		E4925B4E262E97790048458D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E82B17ED41F423D34B0A579B /* Pods-64Collection-MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-64Collection-MacOS.release.xcconfig"; path = "Target Support Files/Pods-64Collection-MacOS/Pods-64Collection-MacOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1704DB44E164EFB60F930C53 /* Pods_64Collection_MacOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62142C04F47FD2B713828CE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08B38F28DDB319B4555A966E /* Pods_64Collection_MacOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B440B300857A55948D2CAF2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B539D8DD4D901939F1192626 /* Pods-64Collection-MacOS.debug.xcconfig */,
+				E82B17ED41F423D34B0A579B /* Pods-64Collection-MacOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E4925B1F262E93D60048458D = {
 			isa = PBXGroup;
 			children = (
 				E4925B2A262E93D60048458D /* 64Collection-MacOS */,
 				E4925B29262E93D60048458D /* Products */,
+				B440B300857A55948D2CAF2B /* Pods */,
+				62142C04F47FD2B713828CE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,14 +91,45 @@
 		E4925B2A262E93D60048458D /* 64Collection-MacOS */ = {
 			isa = PBXGroup;
 			children = (
+				E4925B4D262E97630048458D /* Utils */,
+				E4925B48262E96EC0048458D /* Dto */,
+				E4925B43262E95920048458D /* Service */,
 				E4925B2B262E93D60048458D /* AppDelegate.swift */,
 				E4925B2D262E93D60048458D /* ViewController.swift */,
 				E4925B2F262E93DA0048458D /* Assets.xcassets */,
 				E4925B31262E93DA0048458D /* Main.storyboard */,
 				E4925B34262E93DA0048458D /* Info.plist */,
 				E4925B35262E93DA0048458D /* _4Collection_MacOS.entitlements */,
+				E45EF680262F28090083AA88 /* BrandCollectionViewItem.swift */,
+				E45EF681262F28090083AA88 /* BrandCollectionViewItem.xib */,
 			);
 			path = "64Collection-MacOS";
+			sourceTree = "<group>";
+		};
+		E4925B43262E95920048458D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E4925B44262E95B40048458D /* LeanCloudService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E4925B48262E96EC0048458D /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				E4925B49262E96FB0048458D /* BrandDto.swift */,
+				E45EF6A8262F3C830083AA88 /* TypeDto.swift */,
+			);
+			path = Dto;
+			sourceTree = "<group>";
+		};
+		E4925B4D262E97630048458D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E4925B4E262E97790048458D /* Constants.swift */,
+				E45EF68C262F2E3E0083AA88 /* ImageUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4925B38262E93DA0048458D /* Build configuration list for PBXNativeTarget "64Collection-MacOS" */;
 			buildPhases = (
+				DAE74D795D1F35FA8B2E09A0 /* [CP] Check Pods Manifest.lock */,
 				E4925B24262E93D60048458D /* Sources */,
 				E4925B25262E93D60048458D /* Frameworks */,
 				E4925B26262E93D60048458D /* Resources */,
+				8C2CCB948BA58A42CA0A593C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45EF683262F28090083AA88 /* BrandCollectionViewItem.xib in Resources */,
 				E4925B30262E93DA0048458D /* Assets.xcassets in Resources */,
 				E4925B33262E93DA0048458D /* Main.storyboard in Resources */,
 			);
@@ -127,13 +199,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C2CCB948BA58A42CA0A593C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-64Collection-MacOS/Pods-64Collection-MacOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-64Collection-MacOS/Pods-64Collection-MacOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-64Collection-MacOS/Pods-64Collection-MacOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE74D795D1F35FA8B2E09A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-64Collection-MacOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4925B24262E93D60048458D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4925B4F262E97790048458D /* Constants.swift in Sources */,
+				E45EF6A9262F3C830083AA88 /* TypeDto.swift in Sources */,
 				E4925B2E262E93D60048458D /* ViewController.swift in Sources */,
+				E4925B45262E95B40048458D /* LeanCloudService.swift in Sources */,
+				E45EF682262F28090083AA88 /* BrandCollectionViewItem.swift in Sources */,
 				E4925B2C262E93D60048458D /* AppDelegate.swift in Sources */,
+				E4925B4A262E96FB0048458D /* BrandDto.swift in Sources */,
+				E45EF68D262F2E3E0083AA88 /* ImageUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,20 +388,25 @@
 		};
 		E4925B39262E93DA0048458D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B539D8DD4D901939F1192626 /* Pods-64Collection-MacOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "64Collection-MacOS/_4Collection_MacOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 9SAX8QHA7K;
 				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = "64Collection-MacOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.rose-hulman.yangh6.-4Collection-MacOS";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rose-hulman.yangh6.-4Collection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -289,20 +414,25 @@
 		};
 		E4925B3A262E93DA0048458D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82B17ED41F423D34B0A579B /* Pods-64Collection-MacOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "64Collection-MacOS/_4Collection_MacOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 9SAX8QHA7K;
 				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = "64Collection-MacOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.rose-hulman.yangh6.-4Collection-MacOS";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rose-hulman.yangh6.-4Collection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

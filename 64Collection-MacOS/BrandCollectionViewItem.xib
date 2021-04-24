@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
+        <capability name="System colors introduced in macOS 10.14" minToolsVersion="10.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="BrandCollectionViewItem" customModule="_4Collection_MacOS" customModuleProvider="target">
+            <connections>
+                <outlet property="brandCountryTextField" destination="JcY-pr-Cru" id="0Ho-qe-ipy"/>
+                <outlet property="brandNameTextField" destination="pLa-xG-Ia6" id="FFF-ik-hSr"/>
+                <outlet property="imageView" destination="0XQ-32-gkg" id="NYg-9i-dNX"/>
+                <outlet property="view" destination="n1b-p0-QaL" id="kyg-se-Qy4"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="77" height="129"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stackView distribution="equalSpacing" orientation="vertical" alignment="centerX" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n1b-p0-QaL">
+                    <rect key="frame" x="0.0" y="0.0" width="77" height="129"/>
+                    <subviews>
+                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0XQ-32-gkg">
+                            <rect key="frame" x="19" y="89" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="GvD-ZJ-ppI"/>
+                                <constraint firstAttribute="width" constant="40" id="QFq-ft-OKn"/>
+                            </constraints>
+                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="top" imageScaling="proportionallyDown" image="NSFolder" id="vam-qB-sfg"/>
+                            <color key="contentTintColor" name="controlAccentColor" catalog="System" colorSpace="catalog"/>
+                        </imageView>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pLa-xG-Ia6">
+                            <rect key="frame" x="-1" y="45" width="79" height="16"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="Brand Name" id="YU4-PK-ftP">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JcY-pr-Cru">
+                            <rect key="frame" x="12" y="0.0" width="53" height="16"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="Country" id="Usn-8e-MUF">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="n1b-p0-QaL" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="0W8-7z-bav"/>
+                <constraint firstAttribute="trailing" secondItem="n1b-p0-QaL" secondAttribute="trailing" id="TQQ-jR-TFj"/>
+                <constraint firstItem="n1b-p0-QaL" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="WYh-rj-lZb"/>
+                <constraint firstAttribute="bottom" secondItem="n1b-p0-QaL" secondAttribute="bottom" id="jzf-4J-BcW"/>
+            </constraints>
+            <point key="canvasLocation" x="-62.5" y="82.5"/>
+        </customView>
+        <collectionViewItem id="swY-Tk-Neg" customClass="BrandCollectionViewItem" customModule="_4Collection_MacOS" customModuleProvider="target"/>
+    </objects>
+    <resources>
+        <image name="NSFolder" width="32" height="32"/>
+    </resources>
+</document>
